@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="calcolatrice">
+        <section class="text-area">
+            <textarea id="operazione"></textarea>
+            <textarea id="risultato"></textarea>
+        </section>
+        <section class="button-area">
+            <div class="operazioni-avanzate">
+                <button value="grad">GRAD</button> 
+                <button value="pi">π</button>
+                <button value="^(">^</button>
+                <button value="!">!</button>
+                <button value="deg">DEG</button>
+                <button value="sin(">sin</button>
+                <button value="cos(">cos</button>
+                <button value="tan(">tan</button>
+                <button value="rad">RAD</button>
+                <button value="e">e</button>
+                <button value="sqrt(">√</button>
+                <button value="log(">log</button>
+            </div>
+            <div class="operazioni-base-v">
+                <button>AC</button>
+                <button value="(">(</button>
+                <button value=")">)</button>
+            </div>
+            <div class="operazioni-base-o">
+                <button value="%">%</button>
+                <button value="/">÷</button>
+                <button value="*">x</button>
+                <button value="-">-</button>
+                <button value="+">+</button>
+            </div>
+            <div class="tastierino">
+                <button value="7">7</button>
+                <button value="8">8</button>
+                <button value="9">9</button>
+                <button value="4">4</button>
+                <button value="5">5</button>
+                <button value="6">6</button>
+                <button value="1">1</button>
+                <button value="2">2</button>
+                <button value="3">3</button>
+                <button value="0">0</button>
+                <button value=",">,</button>
+                <button>⌫</button>
+            </div>
+        </section>
+    </div> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/13.1.1/math.js" 
+    integrity="sha512-fMI/ndUubOcpzblrAaOFszYIE2iDKua+Cxg9dZp3cAkhsRWEHHbKtFCElHEQ50viX502yj7nFEEcxq2SOTNrIg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+</body>
+</html>

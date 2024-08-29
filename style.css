@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.calcolatrice {
+    background-color: #6A6262;
+    padding: 60px 20px;
+    width:auto;
+    height: auto;
+    margin:auto;
+    margin-top: 4%;
+    border: 5px solid black;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+}
+
+#operazione {
+    flex: 1 1 100px;
+    border: none;
+    resize: none;
+}
+
+#risultato {
+    flex: 1 1 50px;
+    border: none;
+    resize: none;
+}
+
+.button-area {
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    background-color: #9C9990;
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: repeat(8, 70px);
+}
+
+.operazioni-avanzate {
+    grid-column: 1/-1;
+    grid-row: 1/4;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, auto);
+}
+
+.operazioni-base-v {
+    grid-column: 1/4;
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(1, auto);
+
+}
+.operazioni-base-o {
+    grid-column: 4/-1;
+    grid-row: 4/-1;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(5, auto);
+}
+
+.tastierino {
+    grid-column: 1/4;
+    grid-row: 5/-1;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+}
+
+button{
+     background-color: #CFD2B2;
+     width: 55px;
+     height: 50px;
+     margin:5px;
+}
