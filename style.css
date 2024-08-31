@@ -4,7 +4,7 @@ body {
 }
 
 .calcolatrice {
-    background-color: #6A6262;
+    background-color: #202C39;
     padding: 60px 20px;
     width:auto;
     height: auto;
@@ -24,19 +24,21 @@ body {
     flex: 1 1 100px;
     border: none;
     resize: none;
+    font-size: 1.50em;
 }
 
 #risultato {
     flex: 1 1 50px;
     border: none;
     resize: none;
+    font-size: 1.50em;
 }
 
 .button-area {
     margin: auto;
     margin-top: 30px;
     display: grid;
-    background-color: #9C9990;
+    background-color: #B8B08D;
     grid-template-columns: repeat(4, 70px);
     grid-template-rows: repeat(8, 70px);
 }
@@ -71,6 +73,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(4, auto);
+    color: #283845;
 }
 
 button{
@@ -79,3 +82,23 @@ button{
      height: 50px;
      margin:5px;
 }
+
+.tastierino > button {
+    background-color: #D5C290;
+    font-size: 1.25em;
+}
+
+.operazioni-base-o > button {
+    background-color: #F29559;
+    font-size: 1.25em;
+}
+
+.operazioni-base-v > button {
+    background-color: #F29559;
+    font-size: 1.25em;
+}
+
+.operazioni-avanzate > button {
+    background-color: #F2D492;
+}
+
